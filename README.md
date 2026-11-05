@@ -1,5 +1,7 @@
 # Visão computacional para HTR em documentos históricos
 
+[![CI](https://github.com/mauriciokonrath/projeto-htr-visao-computacional/actions/workflows/ci.yml/badge.svg)](https://github.com/mauriciokonrath/projeto-htr-visao-computacional/actions/workflows/ci.yml)
+
 Trabalho da disciplina de Visão Computacional (Ciência da Computação, UFSC).
 Autores: Maurício Konrath, Fernanda Larissa Müller e Isabella Viviani de Aquino.
 
