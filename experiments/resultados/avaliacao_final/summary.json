@@ -1,0 +1,92 @@
+{
+  "E1": {
+    "complete": true,
+    "planned_pages": 2,
+    "completed_pages": 2,
+    "reference_lines_planned": 111,
+    "reference_lines_scored": 111,
+    "metrics": {
+      "char_errors": 6051,
+      "reference_chars": 6146,
+      "word_errors": 1296,
+      "reference_words": 1294,
+      "cer": 0.9845427920598764,
+      "wer": 1.001545595054096
+    },
+    "matched": 6,
+    "omitted": 105,
+    "unassigned_candidates": 132
+  },
+  "E2": {
+    "complete": true,
+    "planned_pages": 2,
+    "completed_pages": 2,
+    "reference_lines_planned": 111,
+    "reference_lines_scored": 111,
+    "metrics": {
+      "char_errors": 3301,
+      "reference_chars": 6146,
+      "word_errors": 1201,
+      "reference_words": 1294,
+      "cer": 0.5370972990562968,
+      "wer": 0.9281298299845441
+    },
+    "matched": 96,
+    "omitted": 15,
+    "unassigned_candidates": 194
+  },
+  "E3": {
+    "complete": true,
+    "planned_pages": 2,
+    "completed_pages": 2,
+    "reference_lines_planned": 111,
+    "reference_lines_scored": 111,
+    "metrics": {
+      "char_errors": 3301,
+      "reference_chars": 6146,
+      "word_errors": 1201,
+      "reference_words": 1294,
+      "cer": 0.5370972990562968,
+      "wer": 0.9281298299845441
+    },
+    "matched": 96,
+    "omitted": 15,
+    "unassigned_candidates": 194
+  },
+  "E4_control": {
+    "complete": true,
+    "planned_pages": 2,
+    "completed_pages": 2,
+    "reference_lines_planned": 111,
+    "reference_lines_scored": 111,
+    "metrics": {
+      "char_errors": 2594,
+      "reference_chars": 6146,
+      "word_errors": 1170,
+      "reference_words": 1294,
+      "cer": 0.4220631304913765,
+      "wer": 0.9041731066460588
+    },
+    "matched": 111,
+    "omitted": 0,
+    "unassigned_candidates": 0
+  },
+  "E0_native": {
+    "complete": true,
+    "planned_pages": 2,
+    "completed_pages": 2,
+    "reference_lines_planned": 111,
+    "reference_lines_scored": 111,
+    "metrics": {
+      "char_errors": 2837,
+      "reference_chars": 6146,
+      "word_errors": 1187,
+      "reference_words": 1294,
+      "cer": 0.4616010413276928,
+      "wer": 0.9173106646058733
+    },
+    "matched": 103,
+    "omitted": 8,
+    "unassigned_candidates": 116
+  }
+}

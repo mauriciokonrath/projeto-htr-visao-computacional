@@ -1,0 +1,242 @@
+[
+  {
+    "page_id": "p_2ec0ba7f3571f76a",
+    "document_id": "foral_de_abrantes_1217",
+    "method": "E1",
+    "reference_lines": 106,
+    "state": {
+      "status": "complete",
+      "seconds": 21.34362337499988,
+      "recognized": 66,
+      "raw_candidates": 66,
+      "excluded": 0
+    },
+    "metrics": {
+      "char_errors": 5733,
+      "reference_chars": 5828,
+      "word_errors": 1227,
+      "reference_words": 1225,
+      "cer": 0.9836993822923816,
+      "wer": 1.0016326530612245
+    },
+    "matched": 6,
+    "omitted": 100,
+    "unassigned": 60
+  },
+  {
+    "page_id": "p_2ec0ba7f3571f76a",
+    "document_id": "foral_de_abrantes_1217",
+    "method": "E2",
+    "reference_lines": 106,
+    "state": {
+      "status": "complete",
+      "seconds": 17.944566541999848,
+      "recognized": 139,
+      "raw_candidates": 139,
+      "excluded": 0
+    },
+    "metrics": {
+      "char_errors": 3035,
+      "reference_chars": 5828,
+      "word_errors": 1132,
+      "reference_words": 1225,
+      "cer": 0.5207618393960192,
+      "wer": 0.9240816326530612
+    },
+    "matched": 94,
+    "omitted": 12,
+    "unassigned": 45
+  },
+  {
+    "page_id": "p_2ec0ba7f3571f76a",
+    "document_id": "foral_de_abrantes_1217",
+    "method": "E3",
+    "reference_lines": 106,
+    "state": {
+      "status": "complete",
+      "seconds": 20.074600707999707,
+      "recognized": 139,
+      "raw_candidates": 139,
+      "excluded": 0
+    },
+    "metrics": {
+      "char_errors": 3035,
+      "reference_chars": 5828,
+      "word_errors": 1132,
+      "reference_words": 1225,
+      "cer": 0.5207618393960192,
+      "wer": 0.9240816326530612
+    },
+    "matched": 94,
+    "omitted": 12,
+    "unassigned": 45
+  },
+  {
+    "page_id": "p_2ec0ba7f3571f76a",
+    "document_id": "foral_de_abrantes_1217",
+    "method": "E4_control",
+    "reference_lines": 106,
+    "state": {
+      "status": "complete",
+      "seconds": 11.734786624999288,
+      "recognized": 106,
+      "raw_candidates": 106,
+      "excluded": 0
+    },
+    "metrics": {
+      "char_errors": 2405,
+      "reference_chars": 5828,
+      "word_errors": 1102,
+      "reference_words": 1225,
+      "cer": 0.4126630061770762,
+      "wer": 0.8995918367346939
+    },
+    "matched": 106,
+    "omitted": 0,
+    "unassigned": 0
+  },
+  {
+    "page_id": "p_2ec0ba7f3571f76a",
+    "document_id": "foral_de_abrantes_1217",
+    "method": "E0_native",
+    "reference_lines": 106,
+    "state": {
+      "status": "complete",
+      "seconds": 20.65389204100029,
+      "recognized": 108,
+      "raw_candidates": 108,
+      "excluded": 0
+    },
+    "metrics": {
+      "char_errors": 2663,
+      "reference_chars": 5828,
+      "word_errors": 1121,
+      "reference_words": 1225,
+      "cer": 0.4569320521619767,
+      "wer": 0.9151020408163265
+    },
+    "matched": 98,
+    "omitted": 8,
+    "unassigned": 10
+  },
+  {
+    "page_id": "p_4dc553cbda7907a4",
+    "document_id": "foral_de_castreicao_1217",
+    "method": "E1",
+    "reference_lines": 5,
+    "state": {
+      "status": "complete",
+      "seconds": 25.69162766699992,
+      "recognized": 72,
+      "raw_candidates": 73,
+      "excluded": 1
+    },
+    "metrics": {
+      "char_errors": 318,
+      "reference_chars": 318,
+      "word_errors": 69,
+      "reference_words": 69,
+      "cer": 1.0,
+      "wer": 1.0
+    },
+    "matched": 0,
+    "omitted": 5,
+    "unassigned": 72
+  },
+  {
+    "page_id": "p_4dc553cbda7907a4",
+    "document_id": "foral_de_castreicao_1217",
+    "method": "E2",
+    "reference_lines": 5,
+    "state": {
+      "status": "complete",
+      "seconds": 21.222324041999855,
+      "recognized": 151,
+      "raw_candidates": 151,
+      "excluded": 0
+    },
+    "metrics": {
+      "char_errors": 266,
+      "reference_chars": 318,
+      "word_errors": 69,
+      "reference_words": 69,
+      "cer": 0.8364779874213837,
+      "wer": 1.0
+    },
+    "matched": 2,
+    "omitted": 3,
+    "unassigned": 149
+  },
+  {
+    "page_id": "p_4dc553cbda7907a4",
+    "document_id": "foral_de_castreicao_1217",
+    "method": "E3",
+    "reference_lines": 5,
+    "state": {
+      "status": "complete",
+      "seconds": 24.62709270800042,
+      "recognized": 151,
+      "raw_candidates": 151,
+      "excluded": 0
+    },
+    "metrics": {
+      "char_errors": 266,
+      "reference_chars": 318,
+      "word_errors": 69,
+      "reference_words": 69,
+      "cer": 0.8364779874213837,
+      "wer": 1.0
+    },
+    "matched": 2,
+    "omitted": 3,
+    "unassigned": 149
+  },
+  {
+    "page_id": "p_4dc553cbda7907a4",
+    "document_id": "foral_de_castreicao_1217",
+    "method": "E4_control",
+    "reference_lines": 5,
+    "state": {
+      "status": "complete",
+      "seconds": 0.7528939160001755,
+      "recognized": 5,
+      "raw_candidates": 5,
+      "excluded": 0
+    },
+    "metrics": {
+      "char_errors": 189,
+      "reference_chars": 318,
+      "word_errors": 68,
+      "reference_words": 69,
+      "cer": 0.5943396226415094,
+      "wer": 0.9855072463768116
+    },
+    "matched": 5,
+    "omitted": 0,
+    "unassigned": 0
+  },
+  {
+    "page_id": "p_4dc553cbda7907a4",
+    "document_id": "foral_de_castreicao_1217",
+    "method": "E0_native",
+    "reference_lines": 5,
+    "state": {
+      "status": "complete",
+      "seconds": 26.37000066699966,
+      "recognized": 111,
+      "raw_candidates": 111,
+      "excluded": 0
+    },
+    "metrics": {
+      "char_errors": 174,
+      "reference_chars": 318,
+      "word_errors": 66,
+      "reference_words": 69,
+      "cer": 0.5471698113207547,
+      "wer": 0.9565217391304348
+    },
+    "matched": 5,
+    "omitted": 0,
+    "unassigned": 106
+  }
+]

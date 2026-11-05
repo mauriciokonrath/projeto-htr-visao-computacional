@@ -1,0 +1,314 @@
+{
+  "original": {
+    "lines": 259,
+    "micro": {
+      "char_errors": 6208,
+      "reference_chars": 14991,
+      "word_errors": 2836,
+      "reference_words": 3188,
+      "cer": 0.41411513574811554,
+      "wer": 0.8895859473023839
+    },
+    "documents": {
+      "foral_de_castreicao_1222": {
+        "lines": 64,
+        "char_errors": 1300,
+        "reference_chars": 3111,
+        "word_errors": 578,
+        "reference_words": 644,
+        "cer": 0.4178720668595307,
+        "wer": 0.8975155279503105
+      },
+      "foral_de_condado_1248": {
+        "lines": 22,
+        "char_errors": 726,
+        "reference_chars": 2135,
+        "word_errors": 405,
+        "reference_words": 468,
+        "cer": 0.34004683840749417,
+        "wer": 0.8653846153846154
+      },
+      "foral_de_condado_1491": {
+        "lines": 27,
+        "char_errors": 453,
+        "reference_chars": 1604,
+        "word_errors": 258,
+        "reference_words": 341,
+        "cer": 0.28241895261845384,
+        "wer": 0.7565982404692082
+      },
+      "foral_de_contrasta_1217": {
+        "lines": 61,
+        "char_errors": 2071,
+        "reference_chars": 3975,
+        "word_errors": 828,
+        "reference_words": 860,
+        "cer": 0.521006289308176,
+        "wer": 0.9627906976744186
+      },
+      "foral_de_contrasta_1222": {
+        "lines": 43,
+        "char_errors": 858,
+        "reference_chars": 2199,
+        "word_errors": 406,
+        "reference_words": 463,
+        "cer": 0.39017735334242837,
+        "wer": 0.8768898488120951
+      },
+      "foral_de_contrasta_1395": {
+        "lines": 21,
+        "char_errors": 401,
+        "reference_chars": 1154,
+        "word_errors": 187,
+        "reference_words": 222,
+        "cer": 0.34748700173310226,
+        "wer": 0.8423423423423423
+      },
+      "foral_de_estremoz_1_1258": {
+        "lines": 21,
+        "char_errors": 399,
+        "reference_chars": 813,
+        "word_errors": 174,
+        "reference_words": 190,
+        "cer": 0.4907749077490775,
+        "wer": 0.9157894736842105
+      }
+    },
+    "macro_cer": 0.39854048714546614,
+    "macro_wer": 0.8739015351881715
+  },
+  "clahe": {
+    "lines": 259,
+    "micro": {
+      "char_errors": 5867,
+      "reference_chars": 14991,
+      "word_errors": 2816,
+      "reference_words": 3188,
+      "cer": 0.39136815422586885,
+      "wer": 0.8833124215809285
+    },
+    "documents": {
+      "foral_de_castreicao_1222": {
+        "lines": 64,
+        "char_errors": 1236,
+        "reference_chars": 3111,
+        "word_errors": 577,
+        "reference_words": 644,
+        "cer": 0.39729990356798456,
+        "wer": 0.8959627329192547
+      },
+      "foral_de_condado_1248": {
+        "lines": 22,
+        "char_errors": 739,
+        "reference_chars": 2135,
+        "word_errors": 410,
+        "reference_words": 468,
+        "cer": 0.34613583138173304,
+        "wer": 0.8760683760683761
+      },
+      "foral_de_condado_1491": {
+        "lines": 27,
+        "char_errors": 451,
+        "reference_chars": 1604,
+        "word_errors": 257,
+        "reference_words": 341,
+        "cer": 0.2811720698254364,
+        "wer": 0.7536656891495601
+      },
+      "foral_de_contrasta_1217": {
+        "lines": 61,
+        "char_errors": 1846,
+        "reference_chars": 3975,
+        "word_errors": 817,
+        "reference_words": 860,
+        "cer": 0.46440251572327046,
+        "wer": 0.95
+      },
+      "foral_de_contrasta_1222": {
+        "lines": 43,
+        "char_errors": 841,
+        "reference_chars": 2199,
+        "word_errors": 402,
+        "reference_words": 463,
+        "cer": 0.3824465666211915,
+        "wer": 0.8682505399568035
+      },
+      "foral_de_contrasta_1395": {
+        "lines": 21,
+        "char_errors": 392,
+        "reference_chars": 1154,
+        "word_errors": 184,
+        "reference_words": 222,
+        "cer": 0.3396880415944541,
+        "wer": 0.8288288288288288
+      },
+      "foral_de_estremoz_1_1258": {
+        "lines": 21,
+        "char_errors": 362,
+        "reference_chars": 813,
+        "word_errors": 169,
+        "reference_words": 190,
+        "cer": 0.44526445264452646,
+        "wer": 0.8894736842105263
+      }
+    },
+    "macro_cer": 0.3794870544797995,
+    "macro_wer": 0.8660356930190499
+  },
+  "background": {
+    "lines": 259,
+    "micro": {
+      "char_errors": 5857,
+      "reference_chars": 14991,
+      "word_errors": 2812,
+      "reference_words": 3188,
+      "cer": 0.3907010873190581,
+      "wer": 0.8820577164366374
+    },
+    "documents": {
+      "foral_de_castreicao_1222": {
+        "lines": 64,
+        "char_errors": 1232,
+        "reference_chars": 3111,
+        "word_errors": 576,
+        "reference_words": 644,
+        "cer": 0.3960141433622629,
+        "wer": 0.8944099378881988
+      },
+      "foral_de_condado_1248": {
+        "lines": 22,
+        "char_errors": 723,
+        "reference_chars": 2135,
+        "word_errors": 401,
+        "reference_words": 468,
+        "cer": 0.33864168618266977,
+        "wer": 0.8568376068376068
+      },
+      "foral_de_condado_1491": {
+        "lines": 27,
+        "char_errors": 450,
+        "reference_chars": 1604,
+        "word_errors": 254,
+        "reference_words": 341,
+        "cer": 0.2805486284289277,
+        "wer": 0.7448680351906158
+      },
+      "foral_de_contrasta_1217": {
+        "lines": 61,
+        "char_errors": 1857,
+        "reference_chars": 3975,
+        "word_errors": 813,
+        "reference_words": 860,
+        "cer": 0.4671698113207547,
+        "wer": 0.9453488372093023
+      },
+      "foral_de_contrasta_1222": {
+        "lines": 43,
+        "char_errors": 827,
+        "reference_chars": 2199,
+        "word_errors": 408,
+        "reference_words": 463,
+        "cer": 0.3760800363801728,
+        "wer": 0.8812095032397408
+      },
+      "foral_de_contrasta_1395": {
+        "lines": 21,
+        "char_errors": 397,
+        "reference_chars": 1154,
+        "word_errors": 186,
+        "reference_words": 222,
+        "cer": 0.3440207972270364,
+        "wer": 0.8378378378378378
+      },
+      "foral_de_estremoz_1_1258": {
+        "lines": 21,
+        "char_errors": 371,
+        "reference_chars": 813,
+        "word_errors": 174,
+        "reference_words": 190,
+        "cer": 0.45633456334563344,
+        "wer": 0.9157894736842105
+      }
+    },
+    "macro_cer": 0.3798299523210654,
+    "macro_wer": 0.8680430331267875
+  },
+  "background_clahe": {
+    "lines": 259,
+    "micro": {
+      "char_errors": 5917,
+      "reference_chars": 14991,
+      "word_errors": 2811,
+      "reference_words": 3188,
+      "cer": 0.3947034887599226,
+      "wer": 0.8817440401505646
+    },
+    "documents": {
+      "foral_de_castreicao_1222": {
+        "lines": 64,
+        "char_errors": 1236,
+        "reference_chars": 3111,
+        "word_errors": 577,
+        "reference_words": 644,
+        "cer": 0.39729990356798456,
+        "wer": 0.8959627329192547
+      },
+      "foral_de_condado_1248": {
+        "lines": 22,
+        "char_errors": 756,
+        "reference_chars": 2135,
+        "word_errors": 410,
+        "reference_words": 468,
+        "cer": 0.3540983606557377,
+        "wer": 0.8760683760683761
+      },
+      "foral_de_condado_1491": {
+        "lines": 27,
+        "char_errors": 448,
+        "reference_chars": 1604,
+        "word_errors": 255,
+        "reference_words": 341,
+        "cer": 0.2793017456359102,
+        "wer": 0.7478005865102639
+      },
+      "foral_de_contrasta_1217": {
+        "lines": 61,
+        "char_errors": 1859,
+        "reference_chars": 3975,
+        "word_errors": 807,
+        "reference_words": 860,
+        "cer": 0.46767295597484276,
+        "wer": 0.9383720930232559
+      },
+      "foral_de_contrasta_1222": {
+        "lines": 43,
+        "char_errors": 848,
+        "reference_chars": 2199,
+        "word_errors": 410,
+        "reference_words": 463,
+        "cer": 0.3856298317417008,
+        "wer": 0.8855291576673866
+      },
+      "foral_de_contrasta_1395": {
+        "lines": 21,
+        "char_errors": 395,
+        "reference_chars": 1154,
+        "word_errors": 182,
+        "reference_words": 222,
+        "cer": 0.34228769497400346,
+        "wer": 0.8198198198198198
+      },
+      "foral_de_estremoz_1_1258": {
+        "lines": 21,
+        "char_errors": 375,
+        "reference_chars": 813,
+        "word_errors": 170,
+        "reference_words": 190,
+        "cer": 0.4612546125461255,
+        "wer": 0.8947368421052632
+      }
+    },
+    "macro_cer": 0.3839350150137579,
+    "macro_wer": 0.8654699440162315
+  }
+}

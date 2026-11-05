@@ -1,0 +1,85 @@
+{
+  "page_id": "p_730fcefa31228d29",
+  "document_id": "foral_de_condado_1491",
+  "split": "train",
+  "review_status": "pilot_geometry_reviewed",
+  "review_date": "2026-10-25",
+  "reviewer": "inspeção visual; sem certificação paleográfica",
+  "manifest_sha256": "e8879cd9fab00d3561333953364d05c63c543c730f84b5c9159f9d2cadff7da5",
+  "image_sha256": "6f0ac2ab012a7a7158081d766e620ffa816971e4c2412e711114cc7a5a3f1d42",
+  "pagexml_sha256": "e48274eadab371a6a46cc05d1e5b731a29644b4eac3924f31961bca15d14cb4e",
+  "roi_polygon": [
+    [
+      175,
+      240
+    ],
+    [
+      1175,
+      240
+    ],
+    [
+      1175,
+      890
+    ],
+    [
+      1155,
+      890
+    ],
+    [
+      1155,
+      1075
+    ],
+    [
+      1175,
+      1075
+    ],
+    [
+      1175,
+      1570
+    ],
+    [
+      175,
+      1570
+    ]
+  ],
+  "expected_line_ids": [
+    "eSc_line_1692abce",
+    "eSc_line_b9624e7f",
+    "eSc_line_58f26c5d",
+    "eSc_line_716fcabc",
+    "eSc_line_db44e638",
+    "eSc_line_5901c3d9",
+    "eSc_line_0cfa0d25",
+    "eSc_line_9c1dd883",
+    "eSc_line_14013ebc",
+    "eSc_line_4eaf5149",
+    "eSc_line_57a5c786",
+    "eSc_line_021c2427",
+    "eSc_line_da83de5e",
+    "eSc_line_238470b3",
+    "eSc_line_f2b0c2c4",
+    "eSc_line_0fe121f7",
+    "eSc_line_bc6ee11d",
+    "eSc_line_f8603ff3",
+    "eSc_line_444e2b26",
+    "eSc_line_d4b6bef7",
+    "eSc_line_7d0f3058",
+    "eSc_line_a6cb20f3",
+    "eSc_line_9be52411",
+    "eSc_line_a318826d",
+    "eSc_line_11b28caa",
+    "eSc_line_67d719bc",
+    "eSc_line_3b7a2f5a"
+  ],
+  "scope": "Corpo principal com 27 linhas anotadas, incluindo título e sinais de parágrafo; notas marginais e escrita da página vizinha ficam fora da ROI.",
+  "geometry_review": "As 27 linhas e a ROI completa foram inspecionadas; todos os pixels dos polígonos anotados estão dentro da ROI. Envelopes e sobreposições originais mantidos.",
+  "transcription_review": "As 27 transcrições estão presentes; ordem e alinhamento visual conferidos. Abreviaturas e grafia histórica não foram verificadas paleograficamente. Nenhuma correção feita.",
+  "training_scope": "Treino da U-Net piloto de segmentação em uma página de treino.",
+  "target": "União dos polígonos de linha do PAGE XML, incluindo o fundo interno.",
+  "background_policy": "Fundo dentro da ROI é válido; pixels fora da ROI são ignorados na perda e nas métricas.",
+  "limitations": [
+    "Uma única página, sem escribas ou documentos independentes para validação.",
+    "A entrada pode conter escrita fora da ROI; a máscara de validade não é canal de entrada.",
+    "A união binária não separa instâncias de linhas que se tocam."
+  ]
+}

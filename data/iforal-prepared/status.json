@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "pages": 10,
+  "lines": 416,
+  "dataset": "iforal_development_sample",
+  "seed": 42,
+  "note": "Geometria importada; revisar ordem de leitura e qualidade das anotações."
+}

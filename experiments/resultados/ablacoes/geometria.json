@@ -1,0 +1,30 @@
+{
+  "H1_M1": {
+    "reference_count": 259,
+    "candidate_count": 534,
+    "matched": 236,
+    "omitted": 23,
+    "unassigned": 298
+  },
+  "H0_M1": {
+    "reference_count": 259,
+    "candidate_count": 483,
+    "matched": 165,
+    "omitted": 94,
+    "unassigned": 318
+  },
+  "H1_M0": {
+    "reference_count": 259,
+    "candidate_count": 404,
+    "matched": 6,
+    "omitted": 253,
+    "unassigned": 398
+  },
+  "H0_M0": {
+    "reference_count": 259,
+    "candidate_count": 459,
+    "matched": 13,
+    "omitted": 246,
+    "unassigned": 446
+  }
+}

@@ -1,0 +1,4 @@
+# CLAHE na página inteira em tons de cinza, antes da extração das linhas.
+method: clahe
+clip_limit: 2.0
+tile_grid_size: [8, 8]

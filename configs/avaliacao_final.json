@@ -1,0 +1,146 @@
+{
+  "manifest_path": "data/iforal-prepared/pages.csv",
+  "split": "test",
+  "methods": [
+    "E1",
+    "E2",
+    "E3",
+    "E4_control",
+    "E0_native"
+  ],
+  "predicted_method_order": [
+    "E1",
+    "E2",
+    "E3",
+    "E0_native"
+  ],
+  "models": {
+    "recognizer": "models/htr/TraPrInq.mlmodel",
+    "pilot_unet": "models/unet_piloto/final.pt"
+  },
+  "classical_config": {
+    "clahe": true,
+    "clip_limit": 2.0,
+    "deskew": true,
+    "max_angle": 15.0,
+    "min_hough_lines": 3,
+    "min_confidence": 0.5,
+    "threshold": "adaptive",
+    "block_size": 51,
+    "threshold_c": 15.0,
+    "denoise": false,
+    "morphology": true,
+    "grouping_width_ratio": 0.02,
+    "grouping_height_ratio": 0.001,
+    "min_area_ratio": 3e-05,
+    "min_width_ratio": 0.015,
+    "min_aspect": 2.0,
+    "split_tall_components": true,
+    "line_height_ratio": 0.015,
+    "layout_refinement": true,
+    "layout_min_component_area_ratio": 1e-05,
+    "layout_max_component_height_ratio": 0.08,
+    "layout_gutter_threshold": 0.35,
+    "layout_min_gutter_width_ratio": 0.006,
+    "layout_peak_threshold": 0.35,
+    "layout_min_line_width_ratio": 0.12,
+    "layout_horizontal_threshold": 0.3,
+    "layout_min_ink_density": 0.15,
+    "layout_vertical_margin_ratio": 0.25,
+    "layout_merge_fragments": false,
+    "layout_fragment_gap_ratio": 0.1
+  },
+  "column_config": {
+    "clahe": true,
+    "clip_limit": 2.0,
+    "deskew": true,
+    "max_angle": 15.0,
+    "min_hough_lines": 3,
+    "min_confidence": 0.5,
+    "threshold": "adaptive",
+    "block_size": 51,
+    "threshold_c": 15.0,
+    "denoise": false,
+    "morphology": true,
+    "grouping_width_ratio": 0.02,
+    "grouping_height_ratio": 0.001,
+    "min_area_ratio": 3e-05,
+    "min_width_ratio": 0.015,
+    "min_aspect": 2.0,
+    "split_tall_components": true,
+    "line_height_ratio": 0.015,
+    "layout_refinement": true,
+    "layout_min_component_area_ratio": 1e-05,
+    "layout_max_component_height_ratio": 0.08,
+    "layout_gutter_threshold": 0.35,
+    "layout_min_gutter_width_ratio": 0.006,
+    "layout_peak_threshold": 0.35,
+    "layout_min_line_width_ratio": 0.12,
+    "layout_horizontal_threshold": 0.3,
+    "layout_min_ink_density": 0.15,
+    "layout_vertical_margin_ratio": 0.0,
+    "layout_merge_fragments": false,
+    "layout_fragment_gap_ratio": 0.1
+  },
+  "baseline_config": {
+    "target_thickness": 7,
+    "threshold": 0.5,
+    "close_width": 9,
+    "min_component_area": 64,
+    "min_horizontal_span": 64,
+    "sample_step": 4,
+    "tolerance_pixels": 8,
+    "minimum_reference_coverage": 0.8,
+    "minimum_prediction_coverage": 0.8,
+    "association_reference_coverage": 0.2
+  },
+  "common_postprocessing": {
+    "edge_filter": {
+      "blur_sigma_short_side_ratio": 0.01,
+      "minimum_page_area_ratio": 0.25,
+      "edge_band_short_side_ratio": 0.02,
+      "minimum_rejected_fraction": 0.9
+    },
+    "crop_guard_pixels": 2,
+    "polygons": {
+      "protocol": "kraken_predicted_unet_baseline",
+      "simplify_epsilon_pixels": 1.0,
+      "quantization": "nearest_integer",
+      "polygonizer": "kraken.lib.segmentation.calculate_polygonal_environment",
+      "scale": null,
+      "topline": false,
+      "roi_hard_boundary": true,
+      "raise_on_error": true
+    }
+  },
+  "htr_config": {
+    "backend": "kraken",
+    "backend_version": "5.3.0",
+    "model_path": "../models/htr/TraPrInq.mlmodel",
+    "model_source": "https://zenodo.org/records/14538271",
+    "model_sha256": "e4aaad0b5a1956e46c94ddf14c1296ab3fa3422e3296704790ead1c8b3059241",
+    "device": "cpu",
+    "threads": 4,
+    "seed": 42,
+    "padding": 16,
+    "crop_protocol": "kraken_predicted_unet_baseline",
+    "bidi_reordering": true
+  },
+  "native_segmentation_config": {
+    "backend_version": "5.3.0",
+    "model_sha256": "77a638a83c9e535620827a09e410ed36391e9e8e8126d5796a0f15b978186056",
+    "device": "cpu",
+    "threads": 4,
+    "seed": 42,
+    "text_direction": "horizontal-lr",
+    "autocast": false
+  },
+  "neural_inference": {
+    "tile_size": 256,
+    "stride": 192,
+    "batch_size": 4
+  },
+  "matching": {
+    "threshold": 0.5
+  }
+}

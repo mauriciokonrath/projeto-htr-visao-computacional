@@ -1,0 +1,12 @@
+backend: kraken
+backend_version: 5.3.0
+model_path: ../models/htr/TraPrInq.mlmodel
+model_source: https://zenodo.org/records/14538271
+model_sha256: e4aaad0b5a1956e46c94ddf14c1296ab3fa3422e3296704790ead1c8b3059241
+device: cpu
+threads: 4
+seed: 42
+padding: 16
+crop_protocol: kraken_gt_baseline
+bidi_reordering: true
+

@@ -1,0 +1,16 @@
+{
+  "seed": 42,
+  "groups": {
+    "foral_de_abrantes_1217": "test",
+    "foral_de_castreicao_1217": "test",
+    "foral_de_castreicao_1222": "train",
+    "foral_de_condado_1248": "train",
+    "foral_de_condado_1255": "val",
+    "foral_de_condado_1491": "train",
+    "foral_de_contrasta_1217": "train",
+    "foral_de_contrasta_1222": "train",
+    "foral_de_contrasta_1395": "train",
+    "foral_de_estremoz_1_1258": "train"
+  },
+  "policy": "document_id; linked writer_ids share a split; ratios approximate group counts"
+}

@@ -1,0 +1,23 @@
+{
+  "clahe": {
+    "delta_char_errors": -341,
+    "improved_lines": 143,
+    "worsened_lines": 73,
+    "tied_lines": 43,
+    "improved_documents": 6
+  },
+  "background": {
+    "delta_char_errors": -351,
+    "improved_lines": 143,
+    "worsened_lines": 70,
+    "tied_lines": 46,
+    "improved_documents": 7
+  },
+  "background_clahe": {
+    "delta_char_errors": -291,
+    "improved_lines": 137,
+    "worsened_lines": 83,
+    "tied_lines": 39,
+    "improved_documents": 6
+  }
+}

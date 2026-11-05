@@ -1,0 +1,10 @@
+device: cpu
+threads: 4
+seed: 42
+steps: 600
+batch_size: 2
+base_channels: 8
+learning_rate: 0.001
+weight_decay: 0.0001
+evaluate_every: 100
+threshold: 0.5

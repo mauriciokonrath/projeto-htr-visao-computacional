@@ -1,0 +1,10 @@
+{
+  "protocol": "kraken_predicted_unet_baseline",
+  "simplify_epsilon_pixels": 1.0,
+  "quantization": "nearest_integer",
+  "polygonizer": "kraken.lib.segmentation.calculate_polygonal_environment",
+  "scale": null,
+  "topline": false,
+  "roi_hard_boundary": true,
+  "raise_on_error": true
+}
